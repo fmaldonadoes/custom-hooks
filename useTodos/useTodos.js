@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 const init = () => {
   // Intenta parsear el argumento que si es nulo devuelve un arreglo vacío
